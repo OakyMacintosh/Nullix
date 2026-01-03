@@ -1,0 +1,27 @@
+tools/
+build/
+
+# Ignore compiled object files
+*.o
+*.obj
+# Ignore compiled kernel
+nullix.elf
+# Ignore ISO images
+*.iso
+# Ignore temporary build directories
+mkgrub/
+# Ignore editor swap files
+*~
+*.swp
+# Ignore compiled binaries
+*.exe
+*.bin
+# Ignore log files
+*.log
+# Ignore core dumps
+core
+# Ignore coverage files
+*.gcda
+*.gcno
+# Ignore dependency files
+*.d
