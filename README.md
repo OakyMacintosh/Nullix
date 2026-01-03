@@ -1,4 +1,6 @@
-Nullix: Null, not UNIX
+# Nullix (WIP)
+> Null, not UNIX
+
 Features:
 - GRUB multiboot ELF boot
 - IDT + PIC remap
@@ -17,10 +19,10 @@ Then set up the environment:
 ./buildenv.sh
 ```
 
-Then build and run:
+Then build and make an ISO:
 ```sh
 make
-make run    # runs qemu with -kernel nullix.elf (multiboot direct boot)
+make mkgrub
 ```
 
 
